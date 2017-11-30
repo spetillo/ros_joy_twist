@@ -1,0 +1,7 @@
+  <launch>
+    <!-- Turtlesim Node-->
+    <node pkg="joy" type="joy_node" args="/joy" name="joy" />
+    
+    <node pkg="joy_twist" type="joy_twist" args="/edumip/cmd" name="joy_twist" />
+
+  </launch>
