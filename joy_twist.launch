@@ -3,5 +3,8 @@
     <node pkg="joy" type="joy_node" args="/joy" name="joy" />
     
     <node pkg="joy_twist" type="joy_twist" args="/edumip/cmd" name="joy_twist" />
+ <!-- Axes -->
+  <param name="axis_linear" value="4" type="int"/>
+  <param name="axis_angular" value="3" type="int"/>
 
   </launch>
